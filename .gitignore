@@ -12,3 +12,11 @@ Makefile.local
 .coverage
 build/
 ltc_scrypt.so
+
+web-static/P2PoolExtendedFrontEnd/
+
+web-static/p2pool-node-status/
+
+web-static/p2pool-ui-punchy/
+
+web-static/p2pool_fancy_front_end/
