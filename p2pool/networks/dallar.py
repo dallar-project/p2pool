@@ -1,10 +1,10 @@
 from p2pool.bitcoin import networks
  
 PARENT = networks.nets['dallar']
-SHARE_PERIOD = 15 # seconds
-CHAIN_LENGTH = 24*60*60//15 # shares
-REAL_CHAIN_LENGTH = 24*60*60//15 # shares
-TARGET_LOOKBEHIND = 60 # shares
+SHARE_PERIOD = 10 # seconds
+CHAIN_LENGTH = 12*60*60//10 # shares
+REAL_CHAIN_LENGTH = 12*60*60//10 # shares
+TARGET_LOOKBEHIND = 30 # shares
 SPREAD = 30 # blocks
 IDENTIFIER = 'c22120aab187c089'.decode('hex')
 PREFIX = '567ca4a26746b15f'.decode('hex')
